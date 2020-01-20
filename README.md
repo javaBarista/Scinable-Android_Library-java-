@@ -5,7 +5,7 @@
 Adnroid application을 위한 푸시 알림 제공 라이브러리, FCM을 이용한 토큰값 생성 후 비동기로 서버DB로 올린다.  
 분석기능 추가, 해당기능을 회사의 웹분석용 javaScript code를 안드로이드에서 대응 가능하도록 java로 재 작성한 기능
 
-![](../header.png)
+<img src="https://user-images.githubusercontent.com/48575996/72703849-1d40a680-3b9a-11ea-9927-58d1bb2c6b64.png" width="30%"></img>
 
 ## Library 추가 방법
 
