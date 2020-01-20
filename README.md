@@ -97,7 +97,7 @@ FCMRequest puchclass = new FCMRequest(getApplicationContext().getPackageName(), 
 
 * PendingIntent를 이용하여 푸시 클릭시 원하는 유저의 액티비티를 바인딩하여 실행할 수 있도록 구현  
 * 중요도를 IMPORTANCE_DEFAULT로 하여 사용자의 푸시 수신 설정에 맞게 진동, 알림음으로 나타나도록 구현  
-* api 26 부터는 채널을 사용하기 때문에 채널 미삭제시 푸시알림 무한반복 오류가발생하여 deleteNotificationChannel를 이용해 채널을 삭제  
+* api 26 부터는 채널을 사용하기 때문에 채널 미삭제시 푸시알림 무한반복 오류가 발생하여 deleteNotificationChannel를 이용해 채널을 삭제  
 * 푸시함은 클릭시 클릭했다는 이벤트를 보여주기 위하여 클릭시 색상을 회색으로 약 3초정도 변경(Thread를 통해 딜레이 구현)  
 * AsyncTask를 사용하여 비동기로 푸시함 실행시 서버DB에서 내용들을 가져와 리스트 생성  
 * JSON 타입의 정보를 GSON을 이용하여 틀을 만들어 놓은 Class에 매핑 후 ArrayList로 저장 후 리스트에 바인딩  
