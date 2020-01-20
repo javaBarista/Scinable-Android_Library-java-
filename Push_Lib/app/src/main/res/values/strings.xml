@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Push_Lib</string>
+    <string name="channel_name">알림 사용</string>
+    <string name="channel_description">sound</string>
+</resources>
